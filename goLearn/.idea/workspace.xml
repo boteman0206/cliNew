@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2335d19-a24f-4714-8e47-a1d2c036d6f9" name="Changes" comment="十进制转62进制" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LfETaqfULVSm2ahPJsYcXaKWuS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/v_pengwei01/sdk/gitProject/goLearn/kafka/kafka-docker教程/go_code_demo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kafka/kafka-docker教程/go_code_demo" />
+      <recent name="$PROJECT_DIR$/kafka/kafka-docker教程/go_code_demo_group" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cli_program/cmd" />
+      <recent name="$PROJECT_DIR$/kafka/kafka-docker教程" />
+      <recent name="$PROJECT_DIR$/kafka/kafka-docker教程/go_code_demo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build 十进制转62进制.go">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="goLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build 十进制转62进制.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="golearn/src/进制转换" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/进制转换/十进制转62进制.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golearn/cli_program" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="golearn/cli_program" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cli_program/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golearn/src/test测试文件集合 (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="golearn/src/test测试文件集合" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/test测试文件集合/baidutest.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golearn/src/test测试文件集合 (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="goLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="golearn/src/test测试文件集合" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/test测试文件集合/置顶评论.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build golearn/src/test测试文件集合" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <package value="golearn/src/test测试文件集合" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/test测试文件集合/baidutest.go" />
+      <option name="build_on_remote_target" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="goLearn" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build golearn/cli_program" />
+      <item itemvalue="Go Build.go build golearn/src/test测试文件集合" />
+      <item itemvalue="Go Build.go build golearn/src/test测试文件集合 (1)" />
+      <item itemvalue="Go Build.go build golearn/src/test测试文件集合 (2)" />
+      <item itemvalue="Go Build.go build 十进制转62进制.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build 十进制转62进制.go" />
+        <item itemvalue="Go Build.go build golearn/cli_program" />
+        <item itemvalue="Go Build.go build golearn/src/test测试文件集合 (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2335d19-a24f-4714-8e47-a1d2c036d6f9" name="Changes" comment="" />
+      <created>1676253748365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676253748365</updated>
+      <workItem from="1676253751855" duration="600000" />
+      <workItem from="1676351583951" duration="3265000" />
+      <workItem from="1677056130888" duration="1066000" />
+      <workItem from="1677208741528" duration="1708000" />
+      <workItem from="1677549469419" duration="25130000" />
+      <workItem from="1678239268083" duration="1004000" />
+      <workItem from="1678243303554" duration="3967000" />
+      <workItem from="1678862408006" duration="13000" />
+      <workItem from="1678932513727" duration="2671000" />
+      <workItem from="1679276286405" duration="9000" />
+      <workItem from="1679276322335" duration="1766000" />
+      <workItem from="1680173775414" duration="3636000" />
+      <workItem from="1680486681155" duration="6000" />
+      <workItem from="1680486714713" duration="9776000" />
+      <workItem from="1681089278062" duration="4920000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1676254208472</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676254208473</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lru-cache">
+      <created>1677639519302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677639519302</updated>
+    </task>
+    <task id="LOCAL-00003" summary="全局唯一xid">
+      <created>1677651944756</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677651944756</updated>
+    </task>
+    <task id="LOCAL-00004" summary="kafka使用">
+      <created>1677656856523</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677656856523</updated>
+    </task>
+    <task id="LOCAL-00005" summary="kafka的幂等和事务">
+      <created>1677662082287</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677662082287</updated>
+    </task>
+    <task id="LOCAL-00006" summary="kafka异步发送">
+      <created>1677739369229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677739369230</updated>
+    </task>
+    <task id="LOCAL-00007" summary="单元测试">
+      <created>1677825014305</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677825014305</updated>
+    </task>
+    <task id="LOCAL-00008" summary="单元测试">
+      <created>1678242616621</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678242616622</updated>
+    </task>
+    <task id="LOCAL-00009" summary="k8s学习">
+      <created>1680600909733</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680600909734</updated>
+    </task>
+    <task id="LOCAL-00010" summary="十进制转62进制">
+      <created>1681089652493</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681089652493</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1f67c017-95f1-47be-8b6a-c709e5bc9517">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1f67c017-95f1-47be-8b6a-c709e5bc9517" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="lru-cache" />
+    <MESSAGE value="全局唯一xid" />
+    <MESSAGE value="kafka使用" />
+    <MESSAGE value="kafka的幂等和事务" />
+    <MESSAGE value="kafka异步发送" />
+    <MESSAGE value="单元测试" />
+    <MESSAGE value="k8s学习" />
+    <MESSAGE value="十进制转62进制" />
+    <option name="LAST_COMMIT_MESSAGE" value="十进制转62进制" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>

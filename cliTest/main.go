@@ -17,3 +17,10 @@ func main() {
 	myCli.MyCli()
 
 }
+
+/**
+form-data  参数使用
+	./cliTest param   f -f a.txt
+
+
+*/
