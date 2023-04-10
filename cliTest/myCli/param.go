@@ -40,7 +40,7 @@ func Param() []*cli.Command {
 							fmt.Println("文件名称需为.txt文件")
 							return nil
 						}
-						fmt.Println("参数 is : ", fileName)
+						//utils.NewLog().INFO("测试问津是： ", fileName)
 						disposeContent(fileName)
 						return nil
 					},

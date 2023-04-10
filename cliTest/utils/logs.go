@@ -2,15 +2,17 @@ package utils
 
 import (
 	"path/filepath"
+	"strings"
 )
 
 // 记录文件log信息
 var (
-	ERRLOG  *LogInfo
-	INFOLOG *LogInfo
-	DIR     string
-	DIRLOG  string
-	LOGTXT  = "log.txt"
+	DIR    string
+	DIRLOG string
+	LOGTXT = "log.txt"
+
+	ERROR = "ERROR"
+	INFO  = "INFO"
 )
 
 func init() {
@@ -20,24 +22,32 @@ func init() {
 
 	CreateFile(DIRLOG)
 
-	ERRLOG = NewErrLog()
-	INFOLOG = NewINfoLog()
-	INFOLOG.Message = "测试一下info: "
-	ERRLOG.Message = "测试一下:error "
-
-	INFOLOG.WriteLog()
-	ERRLOG.WriteLog()
-
 }
 
-func NewErrLog() *LogInfo {
-
-	return &LogInfo{Level: " ERROR", FilePath: DIRLOG}
+func NewLog() *LogInfo {
+	return &LogInfo{FilePath: DIRLOG}
 }
 
-func NewINfoLog() *LogInfo {
+func (l *LogInfo) ERROR(str ...string) {
+	l.Level = ERROR
+	l.Message = ForMatMsg(str...)
 
-	return &LogInfo{Level: " INFO", FilePath: DIRLOG}
+	WriteFile(DIRLOG, l)
+}
+
+func (l *LogInfo) INFO(str ...string) {
+	l.Level = INFO
+	l.Message = ForMatMsg(str...)
+
+	WriteFile(DIRLOG, l)
+}
+
+func ForMatMsg(str ...string) string {
+	var strs = make([]string, len(str))
+	for i := range str {
+		strs = append(strs, str[i])
+	}
+	return strings.Join(strs, "")
 }
 
 type LogInfo struct {
@@ -45,8 +55,4 @@ type LogInfo struct {
 	Level    string `json:"level"`
 	Message  string `json:"message"`
 	Path     string `json:"path"`
-}
-
-func (l *LogInfo) WriteLog() {
-	WriteFile(DIRLOG, l)
 }
