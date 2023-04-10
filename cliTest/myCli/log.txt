@@ -1,0 +1,2 @@
+Level:  INFO, Msg: 测试一下info:  
+Level:  ERROR, Msg: 测试一下:error  

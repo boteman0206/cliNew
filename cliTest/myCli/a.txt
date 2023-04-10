@@ -1,0 +1,20 @@
+country	CN
+product	gravity
+sys_lang	zh-TW
+uwd	5stZGLS/kH4kgw+OI7biPAKV2fP0Wp8TjNoD4vUgm+T1JAGtKiiIH41Qtyf/xr/6
+
+privacy_language_state	zh-TW
+app_version	7.2.0
+user_country	CN
+sign	dc29873a86b696cb17f40c48fb1640b8
+pkg	anonymous.sns.community.gravity
+token	YdEwKKdbJHFQoiav0KPSn3%2BYcFDa9aBWYuMWQDTY3fuW0XNgQYV00u4G5gOGdS9W
+languageV2	zh-TW
+referrer	Organic
+zone	8
+system_version	11
+sdk_version	30
+model	M2012K11AC
+device	android
+brand	Xiaomi
+ts	1681110645
