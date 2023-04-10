@@ -1,8 +1,8 @@
 package myCli
 
 import (
+	"cliNew/utils"
 	"fmt"
-	"my-cli/utils"
 	"path/filepath"
 	"testing"
 )
